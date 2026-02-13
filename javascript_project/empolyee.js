@@ -51,7 +51,7 @@ function freezeEmployee(id) {
 function sealEmployee(id) {
     if (employeedb[id]) {
         Object.seal(employeedb[id])
-        console.log("empolye  data sealed")
+        console.log("empolye  data sealed !")
     } else {
         console.log(`empolyee with id ${id} is not found`)
     }
