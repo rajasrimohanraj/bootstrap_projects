@@ -45,7 +45,7 @@ function freezeEmployee(id) {
         Object.freeze(employeedb[id]);
         console.log("empolyee  data freezed")
     } else {
-        console.log(`empolyee with id ${id} is not found`)
+        console.log(`empolyee with id ${id} is not found !`)
     }
 }
 function sealEmployee(id) {
